@@ -14,7 +14,7 @@ This Python application interfaces with a PostgreSQL database to perform CRUD op
 
 1. Install PostgreSQL/pgAdmin4.
 2. Create a new database named `studentsA4` or change it in the code and match your new name with it.
-3. Using pgAdmin4's Query Tool, create the `students` table with columns according to the assignment instructions:
+3. Using pgAdmin4's Query Tool, create the `students` table with columns according to the assignment instructions OR use the sql file submitted:
 4. Insert initial data into the `students` table using the provided SQL script in the assignment instructions.
 
 # Steps to Compile and Run the Application
