@@ -60,7 +60,7 @@ def main():
     #getAllStudents()
     #addStudent('Karim', 'Fouad', 'karim@example.com', '2023-09-03')
     #updateStudentEmail(25, 'jimmyJimGym@gymmer.com')
-    deleteStudent(26)
+    #deleteStudent(26)
 
     
 if __name__ == "__main__":
