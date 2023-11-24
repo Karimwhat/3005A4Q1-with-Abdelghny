@@ -10,7 +10,7 @@ Link: https://youtu.be/UN4pvQn7Byg
 
 This Python application interfaces with a PostgreSQL database to perform CRUD operations on a 'students' table.
 
-#Setup Instructions for the Database
+# Setup Instructions for the Database
 
 1. Install PostgreSQL/pgAdmin4.
 2. Create a new database named `studentsA4` or change it in the code and match your new name with it.
