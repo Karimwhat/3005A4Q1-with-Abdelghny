@@ -5,25 +5,25 @@ Karim Fouad - 101244311
 Link: https://youtu.be/UN4pvQn7Byg
 
 
-# Students Database Application
+## Students Database Application
 
 
 This Python application interfaces with a PostgreSQL database to perform CRUD operations on a 'students' table.
 
-// Setup Instructions for the Database
+#Setup Instructions for the Database
 
 1. Install PostgreSQL/pgAdmin4.
 2. Create a new database named `studentsA4` or change it in the code and match your new name with it.
 3. Using pgAdmin4's Query Tool, create the `students` table with columns according to the assignment instructions:
 4. Insert initial data into the `students` table using the provided SQL script in the assignment instructions.
 
-// Steps to Compile and Run the Application
+# Steps to Compile and Run the Application
 
 1. Install Python
 2. Install the `psycopg2` library using the command: `pip install psycopg2`.
 3. Run the application with the command: `python Application.py`.
 
-// Function Descriptions
+# Function Descriptions
 
 - `connect_to_database()`: Creates a connection to the PostgreSQL database using provided credentials.
 - `getAllStudents()`: Retrieves and prints all records from the `students` table.
