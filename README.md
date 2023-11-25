@@ -15,13 +15,14 @@ This Python application interfaces with a PostgreSQL database to perform CRUD op
 1. Install PostgreSQL/pgAdmin4.
 2. Create a new database named `studentsA4` or change it in the code and match your new name with it.
 3. Using pgAdmin4's Query Tool, create the `students` table with columns according to the assignment instructions OR use the sql file submitted:
-4. Insert initial data into the `students` table using the provided SQL script in the assignment instructions.
+4. Insert initial data into the `students` table using the provided SQL script in the assignment.
 
 # Steps to Compile and Run the Application
 
 1. Install Python
 2. Install the `psycopg2` library using the command: `pip install psycopg2`.
 3. Run the application with the command: `python Application.py`.
+4. You will be provided with options as a user to execute multiple functions.
 
 # Function Descriptions
 
