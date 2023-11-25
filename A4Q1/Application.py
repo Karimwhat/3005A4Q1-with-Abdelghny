@@ -57,11 +57,41 @@ def deleteStudent(student_id):
 
 # Main function to run your application functions
 def main():
-    #getAllStudents()
-    #addStudent('Karim', 'Fouad', 'karim@example.com', '2023-09-03')
-    #updateStudentEmail(25, 'jimmyJimGym@gymmer.com')
-    #deleteStudent(26)
+    while True:
+        print("Choose an option:")
+        print("1: Get all students")
+        print("2: Add a student")
+        print("3: Update a student's email")
+        print("4: Delete a student")
+        print("5: Exit")
+        
+        choice = input("Enter the number of your choice: ")
+        
+        if choice == '1':
+            getAllStudents()
+        elif choice == '2':
+            first_name = input("Enter student's first name: ")
+            last_name = input("Enter student's last name: ")
+            email = input("Enter student's email: ")
+            enrollment_date = input("Enter student's enrollment date (YYYY-MM-DD): ")
+            addStudent(first_name, last_name, email, enrollment_date)
+            print("Student added successfully.")
+        elif choice == '3':
+            student_id = int(input("Enter the student's ID to update their email: "))
+            new_email = input("Enter the new email: ")
+            updateStudentEmail(student_id, new_email)
+            print("Email updated successfully.")
+        elif choice == '4':
+            student_id = int(input("Enter the student's ID to delete their record: "))
+            deleteStudent(student_id)
+            print("Student deleted successfully.")
+        elif choice == '5':
+            print("Exiting the program.")
+            break
+        else:
+            print("Invalid choice. Please try again.")
+            
+        print("\n")  # Print a new line for better readability after an action is completed
 
-    
 if __name__ == "__main__":
     main()
